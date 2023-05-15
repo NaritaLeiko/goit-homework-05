@@ -725,7 +725,7 @@ body {background:var(--background-white);
     transform: translateY(0%);
 }
 .overlay:focus .overlay-text {
-    transform: translateY(0%)
+    transform: translateY(0%);
 }
 
 .card-desc {
