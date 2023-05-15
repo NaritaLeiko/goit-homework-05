@@ -713,7 +713,7 @@ body {background:var(--background-white);
     padding: 40px 32px;
     margin: 0;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
     transform: translate(0, 100%);
@@ -722,10 +722,16 @@ body {background:var(--background-white);
 }
 
 .overlay:hover .overlay-text {
-    transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+     0px 1px 1px rgba(46, 47, 66, 0.16), 
+     0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translate(0, 0);
 }
 .overlay:focus .overlay-text {
-    transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translate(0, 0);
 }
 
 .card-desc {
