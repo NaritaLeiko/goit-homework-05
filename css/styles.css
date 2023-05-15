@@ -288,7 +288,8 @@ body {background:var(--background-white);
 }
  .close-icon {
     display: inline-block;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  
 .close-btn:hover {
@@ -636,7 +637,10 @@ body {background:var(--background-white);
 
     padding: 12px 24px;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .filters-btn:hover {color:var(--background-white) ;
@@ -668,7 +672,7 @@ body {background:var(--background-white);
 .proj-link{
     display: block;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .proj-link:hover {
@@ -711,10 +715,10 @@ body {background:var(--background-white);
 }
 
 .overlay:hover .overlay-text {
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 .overlay:focus .overlay-text {
-    transform: translateY(0);
+    transform: translateY(0%)
 }
 
 .card-desc {
