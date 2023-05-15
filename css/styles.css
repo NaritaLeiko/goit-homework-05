@@ -286,12 +286,11 @@ body {background:var(--background-white);
     cubic-bezier(0.4, 0, 0.2, 1), 
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
- 
-.close-icon:hover {
+ .close-icon {
     display: inline-block;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+ 
 .close-btn:hover {
     background: var(--nav-color);
     border: none;
@@ -441,6 +440,8 @@ body {background:var(--background-white);
     align-items: center;
     justify-content: center;
 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .sns-link:hover{
@@ -489,6 +490,8 @@ body {background:var(--background-white);
     align-items: center;
     justify-content: center;
     color: var(--icon-color);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover{
@@ -585,6 +588,8 @@ body {background:var(--background-white);
     align-items: center;
     justify-content: center;
 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .sns-footer-link:hover {
     background-color:var(--green)
@@ -629,7 +634,9 @@ body {background:var(--background-white);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 
-    padding: 12px 24px
+    padding: 12px 24px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .filters-btn:hover {color:var(--background-white) ;
@@ -660,6 +667,8 @@ body {background:var(--background-white);
 
 .proj-link{
     display: block;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .proj-link:hover {
@@ -667,6 +676,7 @@ body {background:var(--background-white);
     0px 1px 6px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 .proj-link:focus {
     box-shadow: 
@@ -701,6 +711,9 @@ body {background:var(--background-white);
 }
 
 .overlay:hover .overlay-text {
+    transform: translateY(0);
+}
+.overlay:focus .overlay-text {
     transform: translateY(0);
 }
 
