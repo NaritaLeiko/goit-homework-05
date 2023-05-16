@@ -613,7 +613,8 @@ body {background:var(--background-white);
 /* Portfolio page */
 
 .filters {
-    padding: 96px 0 120px
+    padding: 96px 0 120px;
+    margin-top: 72px;
 }
 .filter-btns-list {
     display: flex;
