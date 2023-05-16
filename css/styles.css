@@ -35,7 +35,7 @@ img {
 }
 button {
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 li {
     display: list-item;
@@ -66,12 +66,9 @@ body {background:var(--background-white);
     0px 2px 1px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 1px 6px rgba(46, 47, 66, 0.08);
-    position: fixed;
-    width: 100%;
+    position: fixed; 
     top: 0;
-    left: 0;
     z-index: 1;
-    min-height: 72px;
     background-color:var(--background-white);
 }
 
@@ -181,6 +178,7 @@ body {background:var(--background-white);
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    margin-top: 72px;
 
 }
 .hero-image {
@@ -227,6 +225,8 @@ body {background:var(--background-white);
  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
  margin-left: auto;
  margin-right: auto;
+
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
 .order-btn:hover{background-color:var(--nav-color);
