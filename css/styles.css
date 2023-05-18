@@ -68,6 +68,7 @@ body {background:var(--background-white);
     0px 1px 6px rgba(46, 47, 66, 0.08);
     position: fixed; 
     top: 0;
+    width: 100%;
     z-index: 1;
     background-color:var(--background-white);
 }
@@ -178,12 +179,11 @@ body {background:var(--background-white);
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    margin-top: 72px;
+    margin-top: 73px;
 
 }
 .hero-image {
     max-width: 1440px;
-    height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
